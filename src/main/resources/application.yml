@@ -1,0 +1,10 @@
+debug: false
+logging:
+  level:
+    org.springframework:
+      data: INFO
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
